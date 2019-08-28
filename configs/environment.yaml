@@ -1,0 +1,20 @@
+####  MULTIPLE HOST INFO  ####
+ENV:
+    - LOCAL:
+        SERVER_URL: http://localhost:5000
+        HPS_AUTH_TOKEN: dffff
+        X-API-KEY: XRc5mC9rko4nkmRF49CxokxwHEaDpd26VhD0Pfb0
+        
+    - API_GATEWAY:
+        SERVER_URL: https://sddddd.amazonaws.com/alpha
+        HPS_AUTH_TOKEN: dffff
+        X-API-KEY: xdfffErffffggg
+    
+####  API ENDPOINT INFO  ####
+API_INFO:
+    EXTRACT_FROM_IMAGE_API: '/insurance_card/extract/from_image'
+    EXTRACT_FROM_TEXT_API: '/insurance_card/extract/from_text'
+
+CARD_PROVIDER_INFO:
+   - HMSA
+   - UNUM
